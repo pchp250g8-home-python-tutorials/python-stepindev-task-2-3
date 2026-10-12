@@ -2,6 +2,8 @@
 direction = 0  # 0: direction unknown, 1: up, -1: down
 changes = 0  # Direction change counter
 new_direction = direction  # New direction
+print("Enter the floor numbers where the elevator stopped.")
+print("0 - end of input.")
 # Read the first floor
 prev = int(input())
 b_done = (prev == 0)  # flag variable, loop exit condition
